@@ -11,4 +11,9 @@ app.get("/contact", function (req, res) {
 })
 
 app.get("/about",(req,res)=>{
-    res.send("Hello my name is Vaibhav and i am learning
+    res.send("Hello my name is Vaibhav and i am learning express");
+})
+
+app.listen(port, function () {
+    console.log(`server started on port ${port}`);
+});
