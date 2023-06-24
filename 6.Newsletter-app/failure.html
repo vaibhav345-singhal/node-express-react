@@ -16,9 +16,10 @@
       <h1 class="display-4">Warning!</h1>
       <p class="lead">Something went wrong plz try again.</p>
       <hr class="my-4" />
-      <p class="lead">
-        <a class="btn btn-warning btn-lg" href="#" role="button">Try Again</a>
-      </p>
+
+      <form action="/failure" method="post">
+        <button type="button" class="btn btn-warning btn-lg">Try Again</button>
+      </form>
     </div>
     <script
       src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
